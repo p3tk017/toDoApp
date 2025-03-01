@@ -1,0 +1,82 @@
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 15px;
+  background: #e22c2c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1em;
+}
+button:hover {
+  background: #b91818;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+li {
+  background: #eee;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.delete {
+  background: #dc8b35;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete:hover {
+  background: #c87823;
+}
+
+.addButton {
+  background: #2c8be2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background: #1878b9;
+}

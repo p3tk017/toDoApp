@@ -1,0 +1,12 @@
+.isCompleted {
+  padding: 15px;
+  background: #49e347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.isCompleted:hover {
+  background: #30b918;
+}
