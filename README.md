@@ -16,7 +16,7 @@ This is a simple To-Do application built with React to practice state management
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/p3tk017/toDoApp.git
    cd todo-app
    ```
 
